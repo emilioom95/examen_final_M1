@@ -1,0 +1,26 @@
+<!-- activity_resumen_pago.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ResumenPagoActivity">
+
+    <!-- TextView para mostrar el total -->
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total a pagar:"
+        android:layout_centerInParent="true" />
+
+    <!-- TextView para mostrar el detalle del pago -->
+    <TextView
+        android:id="@+id/txtDetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalle del pago:"
+        android:layout_below="@id/txtTotal"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

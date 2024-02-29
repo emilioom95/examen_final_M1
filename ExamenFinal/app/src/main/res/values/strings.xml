@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MiApp</string>
+    <string name="txt_total_a_pagar">Total a pagar:</string>
+    <string name="btn_pagar">Pagar</string>
+</resources>
